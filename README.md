@@ -5,41 +5,47 @@ Repositori tugas mata kuliah **Visualisasi Data Lanjut (CAK7AGB4)**, Program Stu
 - **Nama:** Salman Rachmadi
 - **NIM:** 203012420009
 
+## Isi repositori
+
+Repositori ini memuat seluruh pengerjaan mata kuliah:
+
+- **Tugas mingguan**, di folder dan branch `week<N>` (misalnya `week4`, `week5`).
+- **Midterm project**, di folder dan branch `midterm`.
+- **Final project**, di folder dan branch `final`.
+
 ## Alur branch
 
-- `master` berisi informasi repositori ini dan semua tugas yang sudah selesai.
-- Setiap tugas dikerjakan di branch tersendiri yang dinamai sesuai tugasnya, misalnya `week4` untuk tugas minggu ke-4.
-- Setelah tugas selesai, branch-nya di-push lalu di-merge ke `master`.
-
-Tugas berikutnya mengikuti alur yang sama. Contoh untuk tugas minggu ke-4:
+- `master` berisi informasi repositori ini dan semua pekerjaan yang sudah selesai.
+- Setiap pekerjaan dikerjakan di branch tersendiri sesuai namanya: `week<N>`, `midterm`, atau `final`.
+- Setelah pekerjaan selesai, branch-nya di-push lalu di-merge ke `master` (langsung atau lewat pull request).
 
 ```bash
 git checkout master
-git checkout -b week4        # mulai tugas
+git pull origin master
+git checkout -b <branch>       # week<N>, midterm, atau final
 # ... kerjakan, commit ...
-git push -u origin week4     # push branch tugas
+git push -u origin <branch>
+# setelah selesai: buka pull request ke master, atau merge manual
 git checkout master
-git merge week4              # setelah tugas selesai
+git merge <branch>
 git push origin master
 ```
 
-## Daftar tugas
-
-| Branch | Tugas | Status |
-| --- | --- | --- |
-| `week4` | Tugas 1 — Audit Data dan Exploratory Data Analysis | Dikerjakan |
-
 ## Struktur folder
 
-Setiap tugas punya folder sendiri dengan susunan yang sama:
+Setiap pekerjaan punya folder sendiri bernama sesuai branch-nya dan berisi tiga bagian:
 
 ```
-week4/
-├── task/       panduan tugas
-├── data/       dataset
-└── notebook/   notebook pengerjaan
+<branch>/
+├── <panduan>/    panduan tugas (PDF) dan laporan akhir
+├── <dataset>/    dataset tugas
+└── <notebook>/   notebook pengerjaan beserta gambar yang dihasilkan
 ```
+
+Nama subfolder bisa sedikit berbeda antarpekerjaan (misalnya `task/` atau `tasks/`, `data/` atau `datasets/`).
 
 ## Menjalankan notebook
 
-Butuh Python 3 dengan `pandas`, `numpy`, `matplotlib`, `seaborn`, dan Jupyter. Notebook membaca dataset lewat path relatif (`../data/...`), jadi jalankan dari folder `notebook/` tugas yang bersangkutan.
+Butuh Python 3 dengan `pandas`, `numpy`, `matplotlib`, `seaborn`, dan Jupyter. Tugas tertentu bisa butuh pustaka tambahan, misalnya `statsmodels` untuk analisis deret waktu.
+
+Notebook membaca dataset lewat path relatif (misalnya `../data/...` atau `../datasets/...`), jadi jalankan dari folder notebook pekerjaan yang bersangkutan.
