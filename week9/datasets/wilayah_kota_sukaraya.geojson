@@ -1,0 +1,444 @@
+{
+ "type": "FeatureCollection",
+ "name": "Kelurahan Kota Sukaraya",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Pasir Wangi",
+    "kecamatan": "Pasirwangi",
+    "jumlah_penduduk": 41200,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.56,
+       -6.88
+      ],
+      [
+       107.58,
+       -6.88
+      ],
+      [
+       107.58,
+       -6.898
+      ],
+      [
+       107.56,
+       -6.898
+      ],
+      [
+       107.56,
+       -6.88
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Cibuntu Kaler",
+    "kecamatan": "Pasirwangi",
+    "jumlah_penduduk": 33800,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.56,
+       -6.898
+      ],
+      [
+       107.58,
+       -6.898
+      ],
+      [
+       107.58,
+       -6.916
+      ],
+      [
+       107.56,
+       -6.916
+      ],
+      [
+       107.56,
+       -6.898
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Ciburial",
+    "kecamatan": "Pasirwangi",
+    "jumlah_penduduk": 15600,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.56,
+       -6.916
+      ],
+      [
+       107.58,
+       -6.916
+      ],
+      [
+       107.58,
+       -6.934
+      ],
+      [
+       107.56,
+       -6.934
+      ],
+      [
+       107.56,
+       -6.916
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Babakan Sari",
+    "kecamatan": "Babakan",
+    "jumlah_penduduk": 62400,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.58,
+       -6.88
+      ],
+      [
+       107.6,
+       -6.88
+      ],
+      [
+       107.6,
+       -6.898
+      ],
+      [
+       107.58,
+       -6.898
+      ],
+      [
+       107.58,
+       -6.88
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Kebon Gedang",
+    "kecamatan": "Babakan",
+    "jumlah_penduduk": 18300,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.58,
+       -6.898
+      ],
+      [
+       107.6,
+       -6.898
+      ],
+      [
+       107.6,
+       -6.916
+      ],
+      [
+       107.58,
+       -6.916
+      ],
+      [
+       107.58,
+       -6.898
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Cikawao",
+    "kecamatan": "Babakan",
+    "jumlah_penduduk": 27500,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.58,
+       -6.916
+      ],
+      [
+       107.6,
+       -6.916
+      ],
+      [
+       107.6,
+       -6.934
+      ],
+      [
+       107.58,
+       -6.934
+      ],
+      [
+       107.58,
+       -6.916
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Rancabolang",
+    "kecamatan": "Rancasari",
+    "jumlah_penduduk": 44900,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.6,
+       -6.88
+      ],
+      [
+       107.62,
+       -6.88
+      ],
+      [
+       107.62,
+       -6.898
+      ],
+      [
+       107.6,
+       -6.898
+      ],
+      [
+       107.6,
+       -6.88
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Sekejati",
+    "kecamatan": "Rancasari",
+    "jumlah_penduduk": 38600,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.6,
+       -6.898
+      ],
+      [
+       107.62,
+       -6.898
+      ],
+      [
+       107.62,
+       -6.916
+      ],
+      [
+       107.6,
+       -6.916
+      ],
+      [
+       107.6,
+       -6.898
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Cisaranten",
+    "kecamatan": "Rancasari",
+    "jumlah_penduduk": 21700,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.6,
+       -6.916
+      ],
+      [
+       107.62,
+       -6.916
+      ],
+      [
+       107.62,
+       -6.934
+      ],
+      [
+       107.6,
+       -6.934
+      ],
+      [
+       107.6,
+       -6.916
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Mekarjaya",
+    "kecamatan": "Mekarwangi",
+    "jumlah_penduduk": 52100,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.62,
+       -6.88
+      ],
+      [
+       107.64,
+       -6.88
+      ],
+      [
+       107.64,
+       -6.898
+      ],
+      [
+       107.62,
+       -6.898
+      ],
+      [
+       107.62,
+       -6.88
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Antapani Wetan",
+    "kecamatan": "Mekarwangi",
+    "jumlah_penduduk": 30200,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.62,
+       -6.898
+      ],
+      [
+       107.64,
+       -6.898
+      ],
+      [
+       107.64,
+       -6.916
+      ],
+      [
+       107.62,
+       -6.916
+      ],
+      [
+       107.62,
+       -6.898
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kelurahan": "Margahayu Kidul",
+    "kecamatan": "Mekarwangi",
+    "jumlah_penduduk": 24800,
+    "luas_km2": 4.42
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       107.62,
+       -6.916
+      ],
+      [
+       107.64,
+       -6.916
+      ],
+      [
+       107.64,
+       -6.934
+      ],
+      [
+       107.62,
+       -6.934
+      ],
+      [
+       107.62,
+       -6.916
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
